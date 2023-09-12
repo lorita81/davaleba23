@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Product Sans";
+    src: url(/Product\ Sans.ttf);
+}
+
+ 
+
+.navbar {
+    height: 102px;
+    padding-left: 60px;
+    padding-right: 69px;
+    border-bottom: 1px solid #E8E8E8;
+    background: #ffff;
+}
+
+
+.search {
+    margin-left: 100px;
+    color: #A7A7A7;
+    font-family: "Product Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.search input {
+    background-color: transparent;
+    border: 0;
+    height: 50px;
+    width: 300px;
+    outline: none;
+
+}
+
+.side-navbar {
+    max-width: 270px;
+    width: 100%;
+    height: 100vh;
+}
+
+.profile {
+    padding-left: 35px;
+    padding-right: 22px;
+    margin-top: 24px;
+}
+
+.profile .logo {
+    margin-right: 12px;
+}
+
+.profile h4 {
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Product Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+
+.profile h5 {
+    color: #A4A4A4;
+    font-family: "Product Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.13px;
+
+}
+
+.navigation {
+    margin-top: 36px;
+}
+
+.navigation .navigation-link {
+    width: 100%;
+    height: 62px;
+    list-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    column-gap: 20px;
+}
+
+.navigation .navigation-link.active {
+    background-color: #f8f8f8;
+
+}
+
+.navigation .navigation-link a {
+    color: #0C0C0D;
+    font-family: "Product Sans";
+    font-size: 18.971px;
+    text-decoration: none;
+
+
+}
+
+.navigation .navigation-link svg {
+    margin-left: 40px;
+
+}
+
+.navigation .navigation-link .marked {
+    display: none;
+    width: 6px;
+    height: 40px;
+    border-radius: 0px 8px 8px 0px;
+    background: #5932EA;
+    box-shadow: 0px 8px 12px 0px rgba(135, 145, 233, 0.30);
+
+}
+
+.navigation .navigation-link.active .marked {
+    display: block;
+
+}
+
+
+
+
+.card .card-body p {
+    color: #343434;
+    font-family: "Product Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.card .card-body h2 {
+    color: #232323;
+    font-family: "Product Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.card .card-body h5 {
+    color: #949494;
+    font-family: "Product Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.card {
+
+    height: 139px;
+
+}
+
+.statistic {
+    height: 362px;
+    background-color: #ffff;
+    margin-top: 24px;
+    padding: 30px;
+}
+
+.th {
+    color: #949494 !important; 
+    font-family: "Product Sans";
+    font-size: 14.495px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.145px;
+}
+
+.td {
+    color: #000;
+    text-align: center;
+    font-family: "Product Sans";
+    font-size: 14.495px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+.Status {
+    color: #000;
+    font-family: "Product Sans";
+    font-size: 20.296px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.203px;
+}
+.content{
+
+ 
+}
+.total{
+color: #343434;
+font-family: "Product Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.16px;
+}
+.total-2{
+    color: #343434;
+    font-family: "Product Sans";
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    }
+.seven{
+    border-radius: 4px;
+    background: #1A2B88;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.10);
+    width: 32px;
+    height: 21px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Product Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 36%;
+    left:61.5%;
+}
+.btn{
+    color: #1A2B88 !important;
+    text-align: center;
+    font-family: "Product Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    margin-left: 27px;
+    
+}
+
+@media screen and (max-width:768px) {
+    .container-fluid .navbar {
+        display: none !important;
+    }
+}
+    
